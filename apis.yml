@@ -1,8 +1,14 @@
 aid: shape-security
-name: Shape Security *
-description: 'Shape Security * is a company surfaced as a portfolio company of gv, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is
-  a lead awaiting the enrichment pipeline.'
+name: Shape Security
+description: 'Shape Security was an enterprise application-security company (backed by
+  gv and wing-venture-capital) specializing in bot mitigation, credential-stuffing defense,
+  and online-fraud prevention for login, checkout, and account-recovery flows. It was
+  acquired by F5 in 2020 and its technology now ships as F5 Distributed Cloud Bot Defense;
+  the shapesecurity.com domain 301-redirects wholesale into f5.com. Shape Security no
+  longer operates an independent developer portal, public API, OpenAPI spec, or SDK
+  surface of its own — its capabilities are delivered through the F5 Distributed Cloud
+  platform. This profile is retained as an acquisition/lineage record in the API Evangelist
+  network.'
 url: https://raw.githubusercontent.com/api-evangelist/shape-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,32 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: f5
+x-successor: https://www.f5.com/products/security/shape-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Security
+- Bot Mitigation
+- Fraud Prevention
+- Application Security
+- Acquired
+image: https://raw.githubusercontent.com/api-evangelist/shape-security/refs/heads/main/apis.yml
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/shape-security-domain-security.yml
 - type: Website
   url: http://shapesecurity.com
+- type: Documentation
+  url: https://www.f5.com/products/security/shape-security
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
