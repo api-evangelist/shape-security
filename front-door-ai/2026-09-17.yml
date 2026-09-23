@@ -1,0 +1,32 @@
+# Front Door AI Index — shape-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: shape-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: shapesecurity.com
+  final_host: www.f5.com
+  ownership: own
+  owner: shape-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 39
+  host_score: 39
+  density: 31.33
+  words: 1245
+  tiers:
+    agentic: 16
+    core: 23
+    model: 0
+  ambiguous: 25
+  top_terms:
+    AI: 23
+    agent: 13
+    AI agent: 7
+    agentic: 7
+    automation: 7
+    intelligence: 5
+    autonomous agent: 1
+    inference: 1
